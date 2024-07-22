@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Assistant", sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 743px;
+    background-image: url(../images/Path\ 15.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.upperContainer {
+    position: absolute;
+    width: 90%;
+    height: 280px;
+    left:0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    margin-top: 262px;
+}
+
+.upperContainer > h1 {
+    color: #D3E10E;
+    font-size: 86px;
+    margin-bottom: 0;
+}
+
+.upperContainer > p {
+    color: #F9F9F9;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.bottomContainer {
+    width: 90%;
+    height: 151px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    justify-content: center;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+form > div > input {
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    border-style: none;
+    border-bottom: 3px solid #D3E10E;
+    width: 418px;
+    height: 50px;
+}
+
+form > div > label {
+    font-weight: 700;
+    color: #011560;
+}
+
+form > button {
+    width: 166px;
+    height: 50px;
+    color: #011560;
+    font-weight: 700;
+    font-size: 22px;
+    background: #D3E10E 0% 0% no-repeat padding-box;
+    border-style: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1180px) {
+    header {
+        height: 370px;
+    }
+
+    .upperContainer {
+        margin: 0;
+    }
+
+    .upperContainer > h1 {
+        font-size: 30px;
+        margin-top: 76px;
+    }
+
+    footer {
+        width: 320px;
+        margin: auto;
+    }
+
+    .bottomContainer {
+        width: 100%;
+        margin: auto;
+    }
+
+    form {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    form > button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    form {
+        display: initial;
+        
+    }
+
+    form > div {
+        margin: auto;
+    }
+}
