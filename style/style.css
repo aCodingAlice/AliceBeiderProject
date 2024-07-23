@@ -363,7 +363,7 @@ footer > div {
 
     .projectsContainer {
         display: block;
-        width: 60%;
+        width: 80%;
     }
 
     .projectsContainerItem {
@@ -376,5 +376,15 @@ footer > div {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+    }
+
+    .socialButtons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .socialButtons > a > button {
+        height: 90px;
     }
 }
