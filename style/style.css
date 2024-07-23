@@ -371,7 +371,7 @@ footer > div {
     }
 
     .previewImg {
-        width: 70vh;
+        width: 90%;
         height: 41vh;
         background-size: contain;
         background-repeat: no-repeat;
