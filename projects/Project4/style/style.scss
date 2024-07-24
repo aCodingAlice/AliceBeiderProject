@@ -3,7 +3,6 @@
 body {
     margin: 0;
     padding: 0;
-    box-sizing: auto;
     background-image: url(../images/Path\ 15.png);
     background-repeat: no-repeat;
     background-position-x: center;
@@ -84,6 +83,7 @@ button {
 }
 
 @media screen and (max-width: 1173px) {
+
     .container > h1 {
         font-size: 30px;
     }
@@ -95,12 +95,12 @@ button {
     }
 
     input {
+        width: 286px;
         background: #E5EEFF 0% 0% no-repeat padding-box;
-        margin: 0;
     }
 
     form > button {
         margin-left: 25px;
-        width: 418px;    
+        width: 286px;  
     }
 }
