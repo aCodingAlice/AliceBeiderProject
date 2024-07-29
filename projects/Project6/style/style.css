@@ -54,9 +54,10 @@ section {
 
 .socialBottomContainer {
     display: flex;
-    gap: 38px;
-    margin-left: 55px;
-    margin-top: 30px;
+    justify-content: center;
+    margin-top: 145px;
+    margin-bottom: 38px;
+    gap: 18px;
 }
 
 .mainContainer {
@@ -230,13 +231,4 @@ textarea {
     .social-top {
         display: none;
     }
-
-    .socialBottomContainerMob {
-        display: flex;
-        justify-content: center;
-        margin-top: 145px;
-        margin-bottom: 38px;
-        gap: 18px;
-    }
-    
 }
